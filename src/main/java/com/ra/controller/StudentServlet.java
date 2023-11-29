@@ -91,7 +91,7 @@ public class StudentServlet extends HttpServlet {
                         throw new RuntimeException(e);
                     }
                     className = request.getParameter("className");
-//        TODO: check lại logic đoạn này
+
                     if (className == null) {
                         className = "Math";
                     }
@@ -119,7 +119,7 @@ public class StudentServlet extends HttpServlet {
                         throw new RuntimeException(e);
                     }
                     className = request.getParameter("className");
-//        TODO: check lại logic đoạn này
+
                     if (className == null) {
                         className = "Math";
                     }
